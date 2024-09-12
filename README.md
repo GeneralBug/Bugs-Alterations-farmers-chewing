@@ -5,4 +5,4 @@ Datapack making some changes to [Brewin' And Chewin' \[Fabric\]](https://modrint
  - Changed recipes to use dough tag for compatibility
  - Cheese recipes now use salt instead of sugar (if you have a mod that adds salt)
 
-[Modrinth page]()
+[Modrinth page](https://modrinth.com/datapack/bugs-alterations-farmers-chewing)
