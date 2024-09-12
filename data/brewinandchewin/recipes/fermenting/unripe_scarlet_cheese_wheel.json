@@ -1,0 +1,35 @@
+{
+	"fabric:load_conditions": [
+    {
+      "condition": "fabric:item_tags_populated",
+      "values": [
+        "c:salt"
+      ]
+    }
+  ],
+  "type": "brewinandchewin:fermenting",
+  "container": {
+    "item": "minecraft:honeycomb"
+  },
+  "experience": 0.6,
+  "fermentingtime": 12000,
+  "fluiditem": {
+    "item": "minecraft:milk_bucket"
+  },
+  "ingredients": [
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "item": "minecraft:crimson_fungus"
+    },
+    {
+      "tag": "c:salt"
+    }
+  ],
+  "recipe_book_tab": "misc",
+  "result": {
+    "item": "brewinandchewin:unripe_scarlet_cheese_wheel"
+  },
+  "temperature": 4
+}
