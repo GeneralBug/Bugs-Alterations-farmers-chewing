@@ -1,0 +1,13 @@
+{
+	"values": 
+	[
+		{
+			"id":"farmersdelight:beef_patty",
+			"required":false
+		},
+		{
+			"id":"spelunkery:grilled_portabella",
+			"required":false
+		}
+	]
+}

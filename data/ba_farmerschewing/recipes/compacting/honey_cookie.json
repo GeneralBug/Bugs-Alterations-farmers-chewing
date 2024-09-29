@@ -1,0 +1,35 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"delightfulcreators",
+				"estrogen"
+			]
+		}
+	],
+	"type": "create:compacting",
+	"ingredients": 
+	[
+		{
+			"item": "estrogen:estrogen_pill"
+			
+		},
+		{
+			"item": "create:wheat_flour"
+		},
+		{
+			"amount": 27000,
+			"fluid": "create:chocolate"
+		}
+	],
+	"results": 
+	[
+		{
+			"count": 1,
+			"item": "estrogen:estrogen_chip_cookie"
+		}
+	]
+}

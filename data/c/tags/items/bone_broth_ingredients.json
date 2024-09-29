@@ -1,0 +1,17 @@
+{
+	"values": 
+	[
+		{
+			"id":"#c:mushrooms",
+			"required":false
+		},
+		{
+			"id":"spelunkery:tangle_roots",
+			"required":false
+		},
+		{
+			"id":"#gipples_galore:gipple_food",
+			"required":false
+		}
+	]
+}

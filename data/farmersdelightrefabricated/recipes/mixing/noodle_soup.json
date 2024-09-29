@@ -1,0 +1,41 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": ["create", "farmersdelight"]
+    }
+  ],
+  "type": "create:mixing",
+  "heatRequirement": "heated",
+  "ingredients": [
+    {
+      "tag": "c:foods/pastas/raw_pastas"
+    },
+    {
+      "tag": "c:foods/cooked_meats/cooked_eggs"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    [
+      {
+        "tag": "c:foods/raw_meats/raw_pork"
+      },
+      {
+        "item": "spelunkery:portabella"
+      },
+      {
+        "item": "spelunkery:crimini"
+      },
+      {
+        "item": "spelunkery:button_mushroom"
+      }
+    ]
+  ],
+  "results": [
+    {
+      "fluid": "delightfulcreators:noodle_soup",
+      "amount": 27000
+    }
+  ]
+}

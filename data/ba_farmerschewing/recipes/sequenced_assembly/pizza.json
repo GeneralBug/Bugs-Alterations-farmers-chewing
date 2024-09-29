@@ -1,0 +1,123 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"brewinandchewin", 
+				"delightfulcreators"
+			]
+		}
+	],
+	"type": "create:sequenced_assembly",
+	"ingredient": 
+	{
+		"tag": "c:foods/dough"
+	},
+	"loops": 1,
+	"results": 
+	[
+		{
+			"item": "brewinandchewin:pizza"
+		}
+	],
+	"sequence": 
+	[
+		{
+			"type": "create:filling",
+			"ingredients": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				},
+				{
+					"fluid": "delightfulcreators:tomato_sauce",
+					"amount": 20250
+				}
+			],
+			"results": 
+			[
+				{
+				"item": "farmersdelight:wheat_dough"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				},
+				{
+					"item": "minecraft:brown_mushroom"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				},
+				{
+					"tag": "ba_farmerschewing:beef_alts"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				}
+			]
+		},		
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				},
+				{
+					"tag": "c:foods/cheese_wedges"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				}
+			]
+		},		
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				},
+				{
+					"tag": "c:foods/cheese_wedges"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "farmersdelight:wheat_dough"
+				}
+			]
+		}
+	],
+	"transitionalItem": 
+	{
+		"item": "farmersdelight:wheat_dough"
+	}
+}

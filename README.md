@@ -4,5 +4,6 @@ Datapack making some changes to [Brewin' And Chewin' \[Fabric\]](https://modrint
  - Pizza now uses tomato sauce and can be made with dough similarly to cake
  - Changed recipes to use dough tag for compatibility
  - Cheese recipes now use salt instead of sugar (if you have a mod that adds salt)
+ - Also some compatibility stuff for Delightful Creators and a couple of other mods, such as a sequenced assembly recipe for pizza
 
 [Modrinth page](https://modrinth.com/datapack/ba-farmers-chewing)

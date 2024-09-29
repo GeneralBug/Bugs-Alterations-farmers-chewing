@@ -1,0 +1,13 @@
+{
+	"values": 
+	[
+		{
+			"id":"#c:foods/cooked_meats/cooked_mutton",
+			"required":false
+		},
+		{
+			"id":"spelunkery:grilled_portabella",
+			"required":false
+		}
+	]
+}

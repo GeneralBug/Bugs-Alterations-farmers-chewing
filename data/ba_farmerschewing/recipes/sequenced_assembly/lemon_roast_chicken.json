@@ -1,0 +1,103 @@
+{
+	"fabric:load_conditions": 
+	[
+		{
+			"condition": "fabric:all_mods_loaded",
+			"values": 
+			[
+				"fruitfulfun", 
+				"delightfulcreators"
+			]
+		}
+	],
+	"type": "create:sequenced_assembly",
+	"ingredient": 
+	{
+		"item": "minecraft:bowl"
+	},
+	"loops": 1,
+	"results": 
+	[
+		{
+			"item": "fruitfulfun:lemon_roast_chicken_block"
+		}
+	],
+	"sequence": 
+	[
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				},
+				{
+					"item": "minecraft:cooked_chicken"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				},
+				{
+					"tag": "c:fruits/lemon"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				},
+				{
+					"item": "farmersdelight:onion"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				}
+			]
+		},
+		{
+			"type": "create:deploying",
+			"ingredients": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				},
+				{
+					"tag": "c:fruits/lemon"
+				}
+			],
+			"results": 
+			[
+				{
+					"item": "delightfulcreators:incomplete_roast_chicken"
+				}
+			]
+		}
+	],
+	"transitionalItem": {
+	"item": "delightfulcreators:incomplete_roast_chicken"
+	}
+}

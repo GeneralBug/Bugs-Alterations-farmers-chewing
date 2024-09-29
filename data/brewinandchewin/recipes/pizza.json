@@ -2,13 +2,13 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "f": {
-      "item": "brewinandchewin:flaxen_cheese_wedge"
+      "tag": "c:foods/cheese_wedges"
     },
     "m": {
       "item": "minecraft:brown_mushroom"
     },
     "p": {
-      "item": "farmersdelight:beef_patty"
+      "tag": "ba_farmerschewing:beef_alts"
     },
     "t": {
       "item": "farmersdelight:tomato_sauce"
