@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "f": {
-      "tag": "c:foods/cheese_wedges"
+      "tag": "c:foods/cheese"
     },
     "m": {
       "item": "minecraft:brown_mushroom"

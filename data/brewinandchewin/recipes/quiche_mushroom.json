@@ -1,9 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "b": {
-      "tag": "c:foods/cooked_meats/cooked_bacon"
-    },
     "c": {
       "item": "farmersdelight:pie_crust"
     },
@@ -18,10 +15,13 @@
     },
     "m": {
       "tag": "c:milks"
+    },
+    "s": {
+      "item": "minecraft:brown_mushroom"
     }
   },
   "pattern": [
-    "blb",
+    "sls",
     "mfm",
     "ece"
   ],
